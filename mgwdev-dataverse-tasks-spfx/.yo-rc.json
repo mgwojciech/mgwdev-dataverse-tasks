@@ -1,0 +1,21 @@
+{
+  "@microsoft/generator-sharepoint": {
+    "plusBeta": false,
+    "isCreatingSolution": true,
+    "nodeVersion": "18.18.0",
+    "sdksVersions": {
+      "@microsoft/microsoft-graph-client": "3.0.2",
+      "@microsoft/teams-js": "2.12.0"
+    },
+    "version": "1.18.0",
+    "libraryName": "mgwdev-dataverse-tasks-spfx",
+    "libraryId": "e55c6c8d-57ba-4ac7-a2c8-5040de9b12a3",
+    "environment": "spo",
+    "packageManager": "npm",
+    "solutionName": "mgwdev-dataverse-tasks-spfx",
+    "solutionShortDescription": "mgwdev-dataverse-tasks-spfx description",
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "componentType": "webpart"
+  }
+}

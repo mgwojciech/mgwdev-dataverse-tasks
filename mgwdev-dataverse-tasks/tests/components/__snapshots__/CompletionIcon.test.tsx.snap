@@ -1,0 +1,52 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`CompletionIcon > should render completion icon (0%) 1`] = `
+<div>
+  <div
+    class="root-109"
+  >
+    <div
+      class="wrapper-110"
+    >
+      <div
+        class="circle-111"
+        style="border-color: rgba(255, 0, 0, 1); clip-path: inset(0 100% 0 0);"
+      />
+    </div>
+  </div>
+</div>
+`;
+
+exports[`CompletionIcon > should render completion icon (50%) 1`] = `
+<div>
+  <div
+    class="root-109"
+  >
+    <div
+      class="wrapper-110"
+    >
+      <div
+        class="circle-111"
+        style="clip-path: inset(0 50% 0 0);"
+      />
+    </div>
+  </div>
+</div>
+`;
+
+exports[`CompletionIcon > should render completion icon (100%) 1`] = `
+<div>
+  <div
+    class="root-109"
+  >
+    <div
+      class="wrapper-110"
+    >
+      <div
+        class="circle-111"
+        style="clip-path: inset(0 0% 0 0);"
+      />
+    </div>
+  </div>
+</div>
+`;

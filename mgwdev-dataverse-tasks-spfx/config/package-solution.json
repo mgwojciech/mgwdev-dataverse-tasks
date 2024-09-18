@@ -1,0 +1,40 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "mgwdev-dataverse-tasks-spfx-client-side-solution",
+    "id": "e55c6c8d-57ba-4ac7-a2c8-5040de9b12a3",
+    "version": "1.0.0.0",
+    "includeClientSideAssets": true,
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "developer": {
+      "name": "",
+      "websiteUrl": "",
+      "privacyUrl": "",
+      "termsOfUseUrl": "",
+      "mpnId": "Undefined-1.18.0"
+    },
+    "metadata": {
+      "shortDescription": {
+        "default": "mgwdev-dataverse-tasks-spfx description"
+      },
+      "longDescription": {
+        "default": "mgwdev-dataverse-tasks-spfx description"
+      },
+      "screenshotPaths": [],
+      "videoUrl": "",
+      "categories": []
+    },
+    "features": [
+      {
+        "title": "mgwdev-dataverse-tasks-spfx Feature",
+        "description": "The feature that activates elements of the mgwdev-dataverse-tasks-spfx solution.",
+        "id": "2219293f-e5e7-4e5e-8259-febd00ab9636",
+        "version": "1.0.0.0"
+      }
+    ]
+  },
+  "paths": {
+    "zippedPackage": "solution/mgwdev-dataverse-tasks-spfx.sppkg"
+  }
+}

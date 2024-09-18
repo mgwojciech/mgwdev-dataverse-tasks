@@ -1,0 +1,18 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "dataverse-tasks-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/dataverseTasks/DataverseTasksWebPart.js",
+          "manifest": "./src/webparts/dataverseTasks/DataverseTasksWebPart.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "DataverseTasksWebPartStrings": "lib/webparts/dataverseTasks/loc/{locale}.js"
+  }
+}
